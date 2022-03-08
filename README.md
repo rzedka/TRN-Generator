@@ -1,5 +1,14 @@
 # TRN-Generator
 True Random Number generator based on amplified thermal noise.
+
+Display math:
+
+```math
+e^{i\pi} + 1 = 0
+```
+
+and line math $`a^2 + b^2 = c^2`$.
+
 <!---
 ![image](https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU)
 --->
