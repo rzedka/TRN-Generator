@@ -43,7 +43,7 @@ where in our case variance equals $`\sigma^2 = 0.524 V^2`$ and DC offset $`x_0 =
 
 ## Digital Output Measurements 
 
-Aftr
+Analog output of the TRN generator is also sampled by Arduino Nano (at much lower sampling rate than with Analog Discovery 2).  
 
 
 
