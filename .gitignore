@@ -1,6 +1,11 @@
 # MATLAB
 
+*.fig
 *.asv
+*.csv
+*.png
+*.jpg
+
 
 # Prerequisites
 *.d
