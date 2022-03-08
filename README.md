@@ -16,9 +16,9 @@ e^{i\pi} + 1 = 0
 
 and line math $`a^2 + b^2 = c^2`$.
 
-Solarized dark             |  Solarized Ocean
+Top view           |  Bottom view
 :-------------------------:|:-------------------------:
-<img src="https://drive.google.com/uc?export=view&id=13Vyqv_aGqLThN_RuAk9eDzAqz0dn7TaK" width=200 title="TOP">  |  <img src="https://drive.google.com/uc?export=view&id=13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c" width=200 title="BOTTOM">
+<img src="https://drive.google.com/uc?export=view&id=13Vyqv_aGqLThN_RuAk9eDzAqz0dn7TaK" width=400 title="TOP">  |  <img src="https://drive.google.com/uc?export=view&id=13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c" width=400 title="BOTTOM">
 
 <!---
 ![image](https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU)
