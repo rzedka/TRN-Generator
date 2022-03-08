@@ -6,8 +6,13 @@ True Random Number generator based on amplified thermal noise.
 
 Top view
 
-![image](https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU)
+<img src="https://drive.google.com/uc?export=view&id=1UjJwxhhg6ENjZDmyRWbt41zfBLXFZpgS" width=300 align=right>
+
+
+
 <!---
+![image](https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU)
+
 <a href="https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU"><img src="https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU" style="width: 500px; max-width: 20%; height: auto" title="Click for the larger version." /></a>
 --->
 <!---
