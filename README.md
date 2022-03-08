@@ -5,9 +5,17 @@ True Random Number generator based on amplified thermal noise.
 --->
 
 Top view
+<img src="https://drive.google.com/uc?export=view&id=13Vyqv_aGqLThN_RuAk9eDzAqz0dn7TaK" width=300 align=right>
 
-<img src="https://drive.google.com/uc?export=view&id=1UjJwxhhg6ENjZDmyRWbt41zfBLXFZpgS" width=300 align=right>
 
+
+Bottom view
+<img src="https://drive.google.com/uc?export=view&id=13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c" width=300 align=right>
+
+
+
+Spectrum magnitude
+<img src="https://drive.google.com/uc?export=view&id=15Biexxwm-6txojOZyN4R7M9b6BPBS8EX" width=300 align=right>
 
 
 <!---
@@ -33,10 +41,10 @@ Spectrum magnitude
 
 <!---
 Top
-https://drive.google.com/file/d/13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU/view?usp=sharing
+https://drive.google.com/file/d/13Vyqv_aGqLThN_RuAk9eDzAqz0dn7TaK/view?usp=sharing
 
 Bottom
-https://drive.google.com/file/d/13JwK5-GLE6HFXf7qy2N-qq1SR4rBqlio/view?usp=sharing
+https://drive.google.com/file/d/13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c/view?usp=sharing
 
 Spectrum magnitude
 https://drive.google.com/file/d/15Biexxwm-6txojOZyN4R7M9b6BPBS8EX/view?usp=sharing
