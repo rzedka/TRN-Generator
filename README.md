@@ -9,7 +9,7 @@ In order to see the math formulas please download **xhub** chrome extension on
 True Random Number generator based on amplified thermal noise.
 
 Display math:
-
+<!---
 ```math
 e^{i\pi} + 1 = 0
 ```
@@ -22,6 +22,7 @@ e^{i\pi} + 1 = 0
 ```
 
 and line math $`a^2 + b^2 = c^2`$.
+--->
 
 Top view           |  Bottom view
 :-------------------------:|:-------------------------:
