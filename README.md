@@ -7,6 +7,13 @@ Display math:
 e^{i\pi} + 1 = 0
 ```
 
+```math
+\mathbf{A} = \begin{pmatrix}
+1 & 1\\
+0 & 1
+\end{pmatrix}
+```
+
 and line math $`a^2 + b^2 = c^2`$.
 
 <!---
