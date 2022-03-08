@@ -2,7 +2,7 @@
 
 ## Info
 
-In order to see the math formulas please download **xhub** chrome extension
+In order to see the math formulas please download **xhub** chrome extension on
 [xhub download link](https://github.com/nschloe/xhub)
 
 ## Introduction
@@ -29,7 +29,7 @@ Top view           |  Bottom view
 
 ## Measurements 
 
-In order to properly analyze the TRN generator I performed measurements in 
+In order to properly analyze the TRN generator I performed measurements with [Digilent Analog Discovery 2](https://digilent.com/reference/test-and-measurement/analog-discovery-2/start)
 
 PDF          |  PSD
 :-------------------------:|:-------------------------:
