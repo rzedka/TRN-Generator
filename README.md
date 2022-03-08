@@ -8,7 +8,7 @@ Top view
 <img src="https://drive.google.com/uc?export=view&id=13Vyqv_aGqLThN_RuAk9eDzAqz0dn7TaK" width=300 align=right>
 
 
-
+<!---
 Bottom view
 <img src="https://drive.google.com/uc?export=view&id=13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c" width=300 align=left>
 
@@ -16,7 +16,7 @@ Bottom view
 
 Spectrum magnitude
 <img src="https://drive.google.com/uc?export=view&id=15Biexxwm-6txojOZyN4R7M9b6BPBS8EX" width=300 align=right  title="image Title">
-
+--->
 
 <!---
 <table>
