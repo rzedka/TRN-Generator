@@ -10,7 +10,7 @@ Top view
 
 
 Bottom view
-<img src="https://drive.google.com/uc?export=view&id=13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c" width=300 align=right>
+<img src="https://drive.google.com/uc?export=view&id=13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c" width=300 align=left>
 
 
 
@@ -18,25 +18,6 @@ Spectrum magnitude
 <img src="https://drive.google.com/uc?export=view&id=15Biexxwm-6txojOZyN4R7M9b6BPBS8EX" width=300 align=right>
 
 
-<!---
-![image](https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU)
-
-<a href="https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU"><img src="https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU" style="width: 500px; max-width: 20%; height: auto" title="Click for the larger version." /></a>
---->
-<!---
-<a href="https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU"><img src="https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
---->
-
-<!---
-![image](https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU)
-
-Bottom view
-![image](https://drive.google.com/uc?export=view&id=13JwK5-GLE6HFXf7qy2N-qq1SR4rBqlio)
-
-Spectrum magnitude
-
-![image](https://drive.google.com/uc?export=view&id=15Biexxwm-6txojOZyN4R7M9b6BPBS8EX)
---->
 
 
 <!---
