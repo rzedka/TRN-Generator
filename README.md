@@ -26,6 +26,11 @@ Top view           |  Bottom view
 Magnitude spectrum measured by OWON...\
 <img src="https://drive.google.com/uc?export=view&id=15Biexxwm-6txojOZyN4R7M9b6BPBS8EX" width=500 align=center  title="Scope measurements">
 
+PDF          |  PSD
+:-------------------------:|:-------------------------:
+<img src="https://drive.google.com/uc?export=view&id=1FSJg3w4s5QrxNMIRrV_UNIXjQxbqoiCA" width=400 title="TOP">  |  <img src="https://drive.google.com/uc?export=view&id=1Ed-3j3mNsdae_eKPQ9sJc3PuFAJO0Veo" width=400 title="BOTTOM">
+
+
 <!---
 ![image](https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU)
 
@@ -47,6 +52,9 @@ Spectrum magnitude
 
 
 <!---
+
+IMAGES:
+
 Top
 https://drive.google.com/file/d/13Vyqv_aGqLThN_RuAk9eDzAqz0dn7TaK/view?usp=sharing
 
@@ -55,6 +63,14 @@ https://drive.google.com/file/d/13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c/view?usp=shari
 
 Spectrum magnitude
 https://drive.google.com/file/d/15Biexxwm-6txojOZyN4R7M9b6BPBS8EX/view?usp=sharing
+
+probability density function - analog discovery 2 measurement, MATLAB postprocessing
+https://drive.google.com/file/d/1FSJg3w4s5QrxNMIRrV_UNIXjQxbqoiCA/view?usp=sharing
+
+Power Spectral Density - analog discovery 2 measurement, MATLAB postprocessing
+https://drive.google.com/file/d/1Ed-3j3mNsdae_eKPQ9sJc3PuFAJO0Veo/view?usp=sharing
+
+OTHER LINKS:
 
 How-to link google drive images to Github markdown files:
 https://stackoverflow.com/questions/55803682/add-google-drive-images-to-readme-md-on-github
