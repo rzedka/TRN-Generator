@@ -3,16 +3,27 @@ True Random Number generator based on amplified thermal noise.
 <!---
 ![image](https://drive.google.com/uc?export=view&id=1OXgJahr7Anaioa1Jv2pbfXmD82JHJgH5)
 --->
-![image](https://drive.google.com/uc?export=view&id=17SddgMQGVoDpVbg_kLSNVIly4aqAqntp)
 
-![image](https://drive.google.com/uc?export=view&id=1EswDYBiDEf1CUKyEM-XQjb5n9dn13jDA)
+Top view
+![image](https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU)
+
+Bottom view
+![image](https://drive.google.com/uc?export=view&id=13JwK5-GLE6HFXf7qy2N-qq1SR4rBqlio)
+
+Spectrum magnitude
 
 ![image](https://drive.google.com/uc?export=view&id=1lkwZLdeSLGiiaQxOVc9kCdiQFJRq4kzB)
 
+
 <!---
-%https://drive.google.com/file/d/17SddgMQGVoDpVbg_kLSNVIly4aqAqntp/view?usp=sharing
+Top
 
-%https://drive.google.com/file/d/1EswDYBiDEf1CUKyEM-XQjb5n9dn13jDA/view?usp=sharing
+https://drive.google.com/file/d/13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU/view?usp=sharing
 
-%https://drive.google.com/file/d/1lkwZLdeSLGiiaQxOVc9kCdiQFJRq4kzB/view?usp=sharing
+Bottom
+https://drive.google.com/file/d/13JwK5-GLE6HFXf7qy2N-qq1SR4rBqlio/view?usp=sharing
+
+
+
+
 --->
