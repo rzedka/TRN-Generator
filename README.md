@@ -35,6 +35,19 @@ PDF          |  PSD
 :-------------------------:|:-------------------------:
 <img src="https://drive.google.com/uc?export=view&id=1FSJg3w4s5QrxNMIRrV_UNIXjQxbqoiCA" width=400 title="TOP">  |  <img src="https://drive.google.com/uc?export=view&id=1Ed-3j3mNsdae_eKPQ9sJc3PuFAJO0Veo" width=400 title="BOTTOM">
 
+Theoretical PDF formula is given by
+```math
+f_X(x) = \frac{1}{\sqrt{2 \pi} \sigma} e^{-\frac{(x-x_0)^2}{2 \sigma^2}}
+```
+where in our case variance equals $\sigma^2 = 0.524 V^2$ and DC offset $x_0 = 0.06 V$.
+
+
+
+
+
+
+
+
 
 <!---
 ![image](https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU)
