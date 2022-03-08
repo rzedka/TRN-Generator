@@ -1,5 +1,10 @@
 # TRN-Generator
 
+## Info
+
+In order to see the math formulas please download **xhub** chrome extension
+[xhub download link](https://github.com/nschloe/xhub)
+
 ## Introduction
 True Random Number generator based on amplified thermal noise.
 
@@ -22,9 +27,9 @@ Top view           |  Bottom view
 :-------------------------:|:-------------------------:
 <img src="https://drive.google.com/uc?export=view&id=13Vyqv_aGqLThN_RuAk9eDzAqz0dn7TaK" width=400 title="TOP">  |  <img src="https://drive.google.com/uc?export=view&id=13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c" width=400 title="BOTTOM">
 
-## Measurements
-Magnitude spectrum measured by OWON...\
-<img src="https://drive.google.com/uc?export=view&id=15Biexxwm-6txojOZyN4R7M9b6BPBS8EX" width=500 align=center  title="Scope measurements">
+## Measurements 
+
+In order to properly analyze the TRN generator I performed measurements in 
 
 PDF          |  PSD
 :-------------------------:|:-------------------------:
