@@ -5,7 +5,7 @@ True Random Number generator based on amplified thermal noise.
 --->
 
 Top view
-<a href="https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU"><img src="https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU" style="width: 500px; max-width: 100%; height: auto" title="Click for the larger version." /></a>
+<a href="https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU"><img src="https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU" style="width: 500px; max-width: 20%; height: auto" title="Click for the larger version." /></a>
 
 <!---
 <a href="https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU"><img src="https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
