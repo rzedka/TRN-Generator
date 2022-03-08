@@ -24,7 +24,7 @@ Top view           |  Bottom view
 
 ## Measurements
 Magnitude spectrum measured by OWON...
-<img src="https://drive.google.com/uc?export=view&id=15Biexxwm-6txojOZyN4R7M9b6BPBS8EX" width=300 align=right  title="image Title">
+<img src="https://drive.google.com/uc?export=view&id=15Biexxwm-6txojOZyN4R7M9b6BPBS8EX" width=500 align=center  title="Scope measurements">
 
 <!---
 ![image](https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU)
