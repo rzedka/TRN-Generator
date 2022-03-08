@@ -39,7 +39,7 @@ Theoretical PDF formula is given by
 ```math
 f_X(x) = \frac{1}{\sqrt{2 \pi} \sigma} e^{-\frac{(x-x_0)^2}{2 \sigma^2}}
 ```
-where in our case variance equals $\sigma^2 = 0.524 V^2$ and DC offset $x_0 = 0.06 V$.
+where in our case variance equals $`\sigma^2 = 0.524 V^2`$ and DC offset $`x_0 = 0.06 V`$.
 
 
 
