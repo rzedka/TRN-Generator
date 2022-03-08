@@ -7,9 +7,9 @@ In order to see the math formulas please download **xhub** chrome extension on
 
 ## Introduction
 True Random Number generator based on amplified thermal noise.
-
-Display math:
 <!---
+Display math:
+
 ```math
 e^{i\pi} + 1 = 0
 ```
