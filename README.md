@@ -27,9 +27,9 @@ Top view           |  Bottom view
 :-------------------------:|:-------------------------:
 <img src="https://drive.google.com/uc?export=view&id=13Vyqv_aGqLThN_RuAk9eDzAqz0dn7TaK" width=400 title="TOP">  |  <img src="https://drive.google.com/uc?export=view&id=13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c" width=400 title="BOTTOM">
 
-## Measurements 
+## Analog Output Measurements 
 
-In order to properly analyze the TRN generator I performed measurements with [Digilent Analog Discovery 2](https://digilent.com/reference/test-and-measurement/analog-discovery-2/start)
+In order to properly analyze the TRN generator I performed measurements with [Digilent Analog Discovery 2](https://digilent.com/reference/test-and-measurement/analog-discovery-2/start). Resulting histogram / probability density function (PDF) and power spectral density (PSD) are calculated in MATLAB and smoothened with video filter.
 
 PDF          |  PSD
 :-------------------------:|:-------------------------:
@@ -39,10 +39,11 @@ Theoretical PDF formula is given by
 ```math
 f_X(x) = \frac{1}{\sqrt{2 \pi} \sigma} e^{-\frac{(x-x_0)^2}{2 \sigma^2}}
 ```
-where in our case variance equals $`\sigma^2 = 0.524 V^2`$ and DC offset $`x_0 = 0.06 V`$.
+where in our case variance equals $`\sigma^2 = 0.524 V^2`$ and DC offset $`x_0 = -0.06 V`$.
 
+## Digital Output Measurements 
 
-
+Aftr
 
 
 
