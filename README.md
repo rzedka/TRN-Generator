@@ -5,6 +5,9 @@ True Random Number generator based on amplified thermal noise.
 --->
 
 Top view
+<a href="https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU"><img src="https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+<!---
 ![image](https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU)
 
 Bottom view
@@ -13,7 +16,7 @@ Bottom view
 Spectrum magnitude
 
 ![image](https://drive.google.com/uc?export=view&id=15Biexxwm-6txojOZyN4R7M9b6BPBS8EX)
-
+--->
 
 
 <!---
