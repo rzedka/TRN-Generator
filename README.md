@@ -35,4 +35,7 @@ https://stackoverflow.com/questions/55803682/add-google-drive-images-to-readme-m
 Markdown tutorial:
 https://www.w3schools.io/file/markdown-images/
 
+xhub - google chrome extension for typing LaTeX equations directly into markdown files:
+https://github.com/nschloe/xhub
+
 --->
