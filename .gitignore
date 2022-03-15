@@ -5,7 +5,7 @@
 *.csv
 *.png
 *.jpg
-
+*.xlsx
 
 # Prerequisites
 *.d

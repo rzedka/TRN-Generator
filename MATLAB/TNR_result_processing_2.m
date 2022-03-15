@@ -68,7 +68,7 @@ end
 
 f10 = figure(10);
 % n_fft = (-N/2:N/2-1)/N;
-corr_idx = 10;
+corr_idx = 2;
 n_atcr = (1-N_sym):(N_sym-1);
 plot(n_atcr, 20*log10(abs(Cov_func_mat(corr_idx, :))),'b')
 % plot(n_fft(N/2+1:end)*F_smp/1000, log10(abs(S(N/2+1:end)).^2))
@@ -76,10 +76,10 @@ plot(n_atcr, 20*log10(abs(Cov_func_mat(corr_idx, :))),'b')
 % plot(f_vec/1000, log10(PSD_vec),'r')
 grid on
 % hold off
-x10 = xlabel('$n$ [-]','fontsize',14);
-y10 = ylabel('$R_{x,y}(n)$ [dB]','fontsize',14);
+x10 = xlabel('$k$ [-]','fontsize',14);
+y10 = ylabel('$R_{x,y}(k)$ [dB]','fontsize',14);
 ylim([-100 1 ])
-xlim([-1 1]*20)
+xlim([-1 1]*200)
 set(f10, 'position',[50 100 600 500])
 set(x10,'interpreter','latex')
 set(y10,'interpreter','latex')
@@ -117,10 +117,10 @@ set(x1,'interpreter','latex')
 set(y1,'interpreter','latex')
 
 %%
-Nbins= 1024;
+Nbins= 300;
 x_cent = linspace(-3,3,Nbins);
 d_x = x_cent(2) - x_cent(1);
-nvals = hist(s_mat(1,:) ,x_cent)/N/d_x;
+nvals = hist(s_mat(1,:) ,x_cent)/N_sym/d_x;
 
 Navg2 = 50;
 nvals_filt = filter(ones(1,Navg2)/Navg2,1,[nvals,zeros(1,Navg2)]);
