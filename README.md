@@ -56,7 +56,7 @@ Correlation of two sequences of length $`K`$ is defined as
 ```math
 \mathbf{R}_{x,y}(k) = \sum_{i=0}^{k} \tilde{x}(i-k) \tilde{y}(i) \quad \forall \quad k \in \langle 1-K, K-1\rangle, 
 ```
-where $`\mathbf{\tilde{x}} \in \mathbb{R}^{M \times 1}`$ is a vector notation of sequence $`x(n)`$ appended with $`M-K`$ zero samples.
+where $`\tilde{x}(n)`$ is sequence $`x(n)`$ appended with $`M-K`$ zero samples. In vector notation we may define $`\mathbf{\tilde{x}} \in \mathbb{R}^{M \times 1}`$ as a $`M \times 1`$ vector containing entries of $`\tilde{x}(n)`$.
 Correlation can be implemented more efficiently via FFT algorithm as
 ```math
 \mathbf{R}_{x,y}(k) = ifft\Big\{ fft\big\{\mathbf{\tilde{x}} \big\} \odot fft \big\{ \mathbf{\tilde{y}} \big\}  \Big\} \quad \forall \quad k \in \langle 1-K, K-1\rangle,
