@@ -48,7 +48,10 @@ Analog output of the TRN generator is also sampled by Arduino Nano (at much lowe
 
 
 
+Link test [Google][1], [Yahoo!][2].
 
+  [1]: https://www.google.com/
+  [2]: https://www.yahoo.com/
 
 
 <!---
