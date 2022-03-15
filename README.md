@@ -24,17 +24,27 @@ e^{i\pi} + 1 = 0
 and line math $`a^2 + b^2 = c^2`$.
 --->
 
+
+<!---
 Top view           |  Bottom view
 :-------------------------:|:-------------------------:
 <img src="https://drive.google.com/uc?export=view&id=13Vyqv_aGqLThN_RuAk9eDzAqz0dn7TaK" width=400 title="TOP">  |  <img src="https://drive.google.com/uc?export=view&id=13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c" width=400 title="BOTTOM">
 
+--->
+
+
 ## Analog Output Measurements 
 
 In order to properly analyze the TRN generator I performed measurements with [Digilent Analog Discovery 2](https://digilent.com/reference/test-and-measurement/analog-discovery-2/start). Resulting histogram / probability density function (PDF) and power spectral density (PSD) are calculated in MATLAB and smoothened with video filter.
-
+<!---
 PDF          |  PSD
 :-------------------------:|:-------------------------:
 <img src="https://drive.google.com/uc?export=view&id=1FSJg3w4s5QrxNMIRrV_UNIXjQxbqoiCA" width=400 title="TOP">  |  <img src="https://drive.google.com/uc?export=view&id=1Ed-3j3mNsdae_eKPQ9sJc3PuFAJO0Veo" width=400 title="BOTTOM">
+--->
+
+| PDF          |  PSD   |
+|:-------------------------:|:-------------------------:|
+| <img src=".\MATLAB\images\PDF.jpg" width="300"  title="PDF"> | <img src=".\MATLAB\images\PSD.jpg" width="300"  title="PSD">  |
 
 Theoretical PDF formula is given by
 ```math
