@@ -69,18 +69,21 @@ The following figures illustrate the correlation function output for $`\mathbf{R
 
 Based on the correlation function we may define the covariance matrix as 
 ```math
-\mathbf{C}_{\mathbf{x},\mathbf{y}} = 
+\mathbf{C} = 
 \begin{pmatrix}
 max \big\{ \mathbf{R}_{x_0, x_0}(k)\big\} & max \big\{ \mathbf{R}_{x_0, x_1}(k)\big\} & \dots & max \big\{ \mathbf{R}_{x_0, x_{K-1}}(k)\big\}\\
 max \big\{ \mathbf{R}_{x_1, x_0}(k)\big\} & max \big\{ \mathbf{R}_{x_1, x_1}(k)\big\} & \dots & max \big\{ \mathbf{R}_{x_1, x_{K-1}}(k)\big\}\\
 \vdots & \vdots & \ddots & \vdots \\
 max \big\{ \mathbf{R}_{x_{K-1}, x_0}(k)\big\} & max \big\{ \mathbf{R}_{x_{K-1}, x_1}(k)\big\} & \dots & max \big\{ \mathbf{R}_{x_{K-1}, x_{K-1}}(k)\big\}
-\end{pmatrix}
+\end{pmatrix},
 ```
-
+and for our measurement it yields (with lower triangular part left out)
 <p align="center">
   <img src="/images/CovMat_1.JPG" width="800"  title="covariance matrix" align ="center">
 </p>
+
+Even with sampling rate as low as $`F = 10^4`$ sps our samples are still quite highly correlated. Best independence is achieved for delays close to  $`K/2`$ (green section of the covariance matrix). 
+
 ## Digital Output Measurements 
 
 Analog output of the TRN generator is also sampled by Arduino Nano (at much lower sampling rate than with Analog Discovery 2).  
