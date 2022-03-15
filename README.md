@@ -3,7 +3,7 @@
 ## Info
 
 In order to see the math formulas please download **xhub** chrome extension on
-[xhub download link](https://github.com/nschloe/xhub)
+[xhub download link][1]
 
 ## Introduction
 True Random Number generator based on amplified thermal noise.
@@ -44,7 +44,7 @@ PDF          |  PSD
 
 | PDF          |  PSD   |
 |:-------------------------:|:-------------------------:|
-| <img src=".\images\PDF.jpg" width="300"  title="PDF"> | <img src=".\images\PSD.jpg" width="300"  title="PSD">  |
+| <img src="./images/PDF.jpg" width="300"  title="PDF"> | <img src="./images/PSD.jpg" width="300"  title="PSD">  |
 
 Theoretical PDF formula is given by
 ```math
@@ -52,16 +52,23 @@ f_X(x) = \frac{1}{\sqrt{2 \pi} \sigma} e^{-\frac{(x-x_0)^2}{2 \sigma^2}}
 ```
 where in our case variance equals $`\sigma^2 = 0.524 V^2`$ and DC offset $`x_0 = -0.06 V`$.
 
+
+### Covariance Matrix
+
+
+
 ## Digital Output Measurements 
 
 Analog output of the TRN generator is also sampled by Arduino Nano (at much lower sampling rate than with Analog Discovery 2).  
 
 
 
-Link test [Google][1], [Yahoo!][2].
+Link test [Google][2], [Yahoo!][3].
 
-  [1]: https://www.google.com/
-  [2]: https://www.yahoo.com/
+
+  [1]: https://github.com/nschloe/xhub
+  [2]: https://www.google.com/
+  [3]: https://www.yahoo.com/
 
 
 <!---
