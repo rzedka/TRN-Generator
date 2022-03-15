@@ -77,7 +77,7 @@ max \big\{ \mathbf{R}_{x_1, x_0}(k)\big\} & max \big\{ \mathbf{R}_{x_1, x_1}(k)\
 max \big\{ \mathbf{R}_{x_{K-1}, x_0}(k)\big\} & max \big\{ \mathbf{R}_{x_{K-1}, x_1}(k)\big\} & \dots & max \big\{ \mathbf{R}_{x_{K-1}, x_{K-1}}(k)\big\}
 \end{pmatrix}
 ```
-<img src="/images/CovMat_1.jpg" width="600"  title="top">
+<img src="/images/CovMat_1.JPG" width="600"  title="covariance matrix">
 
 ## Digital Output Measurements 
 
