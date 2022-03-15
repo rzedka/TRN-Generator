@@ -28,7 +28,7 @@ and line math $`a^2 + b^2 = c^2`$.
 
 | Top view           |  Bottom view |
 |:-------------------------:|:-------------------------:|
-| <img src="/images/TRN_top_1.jpg" width="400"  title="top"> | <img src="/images/TRN_bottom_1" width="400"  title="bottom">  |
+| <img src="/images/TRN_top_1_small.jpg" width="400"  title="top"> | <img src="/images/TRN_bottom_1_small" width="400"  title="bottom">  |
 
 
 
