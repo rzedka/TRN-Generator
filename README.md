@@ -51,20 +51,32 @@ where in our case variance equals $`\sigma^2 = 0.104 V^2`$ and DC offset $`x_0 =
 
 ### Covariance Matrix
 
-The AD2 recording has $`N = 4194304`$ samples taken at sampling ratio $`F = 10^4 `$ sps. One way to create multiple random streams is to split the input stream using **polyphase decomposition**. We define $`x(n)`$ as the input stream where $` n \in \{0, 1, \dots N-1\}`$. We then split it into K downsampled delayed streams defined as $`x_{i}(m) = x(K \cdot m + i) `$ where $` i \in \{0, 1, \dots K-1\}`$ is the stream index and $` m \in \{0, 1, \dots \lfloor N/K \rfloor-1\}`$.
-Correlation of two sequences of length $`K`$ is defined as
+The AD2 recording has $`N = 4194304`$ samples taken at sampling ratio $`F = 10^4 `$ sps. One way to create multiple random streams is to split the input stream using **polyphase decomposition**. We define $`x(n)`$ as the input stream where $` n \in \{0, 1, \dots N-1\}`$. 
+We then split $`x(n)`$ into K downsampled delayed streams defined as $`x_{i}(m) = x(K \cdot m + i) `$ where $` i \in \{0, 1, \dots K-1\}`$ is the stream index and $` m \in \{0, 1, \dots M -1 \}`$ and where $`M = \lfloor N/K \rfloor`$.
+Correlation of two sequences of length $`M`$ is defined as
 ```math
-\mathbf{R}_{x,y}(k) = \sum_{i=0}^{k} \tilde{x}(i-k) \tilde{y}(i) \quad \forall \quad k \in \langle 1-K, K-1\rangle, 
+\mathbf{R}_{x,y}(k) = \sum_{i=0}^{k} \tilde{x}(i-k) \tilde{y}(i) \quad \forall \quad k \in \langle 1-M, M-1\rangle, 
 ```
-where $`\tilde{x}(n)`$ is sequence $`x(n)`$ appended with $`M-K`$ zero samples. In vector notation we may define $`\mathbf{\tilde{x}} \in \mathbb{R}^{M \times 1}`$ as a $`M \times 1`$ vector containing entries of $`\tilde{x}(n)`$.
+where $`\tilde{x}(n)`$ is sequence $`x(n)`$ appended with $`M-1`$ zero samples. In vector notation we may define $`\mathbf{\tilde{x}} \in \mathbb{R}^{2M-2 \times 1}`$ as $`2M-1 \times 1`$ vector containing entries of $`\tilde{x}(n)`$.
 Correlation can be implemented more efficiently via FFT algorithm as
 ```math
-\mathbf{R}_{x,y}(k) = ifft\Big\{ fft\big\{\mathbf{\tilde{x}} \big\} \odot fft \big\{ \mathbf{\tilde{y}} \big\}  \Big\} \quad \forall \quad k \in \langle 1-K, K-1\rangle,
+\mathbf{R}_{x,y}(k) = ifft\Big\{ fft\big\{\mathbf{\tilde{x}} \big\} \odot fft \big\{ \mathbf{\tilde{y}} \big\}  \Big\} \quad \forall \quad k \in \langle 1-M, M-1\rangle,
 ```
+The following figures illustrate the correlation function output for $`\mathbf{R}_{x_0, x_0}(k)`$ (left) and $`\mathbf{R}_{x_0, x_1}(k)`$ (right).
 | $`\mathbf{R}_{x_0, x_0}(k)`$  |   $`\mathbf{R}_{x_0, x_1}(k)`$   |
 |:-------------------------:|:-------------------------:|
 | <img src="/images/R_ii_1.jpg" width="400"  title="autocorrelation"> | <img src="/images/R_ij_1.jpg" width="400"  title="covariance">  |
 
+Based on the correlation function we may define the covariance matrix as 
+```math
+\mathbf{C}_{\mathbf{x},\mathbf{y}} = 
+\begin{pmatrix}
+max \big\{ \mathbf{R}_{x_0, x_0}(k)\big\} & max \big\{ \mathbf{R}_{x_0, x_1}(k)\big\} & \dots & max \big\{ \mathbf{R}_{x_0, x_{K-1}}(k)\big\}\\
+max \big\{ \mathbf{R}_{x_1, x_0}(k)\big\} & max \big\{ \mathbf{R}_{x_1, x_1}(k)\big\} & \dots & max \big\{ \mathbf{R}_{x_1, x_{K-1}}(k)\big\}\\
+\vdots & \vdots & \ddots & \vdots \\
+max \big\{ \mathbf{R}_{x_{K-1}, x_0}(k)\big\} & max \big\{ \mathbf{R}_{x_{K-1}, x_1}(k)\big\} & \dots & max \big\{ \mathbf{R}_{x_{K-1}, x_{K-1}}(k)\big\}
+\end{pmatrix}
+```
 ## Digital Output Measurements 
 
 Analog output of the TRN generator is also sampled by Arduino Nano (at much lower sampling rate than with Analog Discovery 2).  
