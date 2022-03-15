@@ -51,7 +51,16 @@ where in our case variance equals $`\sigma^2 = 0.104 V^2`$ and DC offset $`x_0 =
 
 ### Covariance Matrix
 
-The AD2 recording has $`N = 4194304`$ samples taken at sampling ratio $`F = 10^4 `$ sps. One way to create a multiple (hopefully) independent random streams is to split the input stream using **polyphase decomposition**. We define $`x(n)`$ as the input stream where $` n \in \{0, 1, \dots N-1\}`$. We then split it into K downsampled delayed streams defined as $`x_{i}(m) = x(K \cdot m + i) `$ where $` i \in \{0, 1, \dots K-1\}`$ and $` m \in \{0, 1, \dots \lfloor N/K \rfloor-1\}`$
+The AD2 recording has $`N = 4194304`$ samples taken at sampling ratio $`F = 10^4 `$ sps. One way to create multiple random streams is to split the input stream using **polyphase decomposition**. We define $`x(n)`$ as the input stream where $` n \in \{0, 1, \dots N-1\}`$. We then split it into K downsampled delayed streams defined as $`x_{i}(m) = x(K \cdot m + i) `$ where $` i \in \{0, 1, \dots K-1\}`$ is the stream index and $` m \in \{0, 1, \dots \lfloor N/K \rfloor-1\}`$.
+Correlation of two sequences is defined as
+```math
+\mathbf{R}_{x,y}(k) = \sum_{i=0}^{k} \tilde{x}_{k-i} \tilde{y}_{i}, 
+```
+which is implemented more efficiently via FFT algorithm as
+```math
+\mathbf{R}_{x,y}(k) = \ifft\big\{ \mathbf{\tilde{X}} \odot \mathbf{\tilde{Y}}\big\}, 
+```
+
 
 ## Digital Output Measurements 
 
