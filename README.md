@@ -6,7 +6,7 @@ In order to see the math formulas please download **xhub** chrome extension on
 [xhub download link][1]
 
 ## Introduction
-True Random Number generator based on amplified thermal noise.
+The first version of the True Random Number (TRN) generator based on amplified thermal noise is shown in figures below.
 <!---
 Display math:
 
@@ -36,11 +36,7 @@ and line math $`a^2 + b^2 = c^2`$.
 ## Analog Output Measurements 
 
 In order to properly analyze the TRN generator I performed measurements with [Digilent Analog Discovery 2](https://digilent.com/reference/test-and-measurement/analog-discovery-2/start). Resulting histogram / probability density function (PDF) and power spectral density (PSD) are calculated in MATLAB.
-<!---
-PDF          |  PSD
-:-------------------------:|:-------------------------:
-<img src="https://drive.google.com/uc?export=view&id=1FSJg3w4s5QrxNMIRrV_UNIXjQxbqoiCA" width=400 title="TOP">  |  <img src="https://drive.google.com/uc?export=view&id=1Ed-3j3mNsdae_eKPQ9sJc3PuFAJO0Veo" width=400 title="BOTTOM">
---->
+
 
 | PDF          |  PSD   |
 |:-------------------------:|:-------------------------:|
@@ -50,12 +46,12 @@ Theoretical PDF formula is given by
 ```math
 f_X(x) = \frac{1}{\sqrt{2 \pi} \sigma} e^{-\frac{(x-x_0)^2}{2 \sigma^2}}
 ```
-where in our case variance equals $`\sigma^2 = 0.524 V^2`$ and DC offset $`x_0 = -0.06 V`$.
+where in our case variance equals $`\sigma^2 = 0.104 V^2`$ and DC offset $`x_0 = 0 V`$.
 
 
 ### Covariance Matrix
 
-
+The AD2 recording has $`N = 4194304`$ samples taken at sampling ratio $`F = 10^4 $ sps. One way to create a multiple independent (hopefully...) random streams we may split the input stream using **polyphase decomposition**. We define $`x(n)`$ as the input stream where $` n \in \{0, 1, \dots N-1\}`$. We then split it into K downsampled streams defined as $`x_{i}(m) = x(K \cdot m + i) `$ where $` i \in \{0, 1, \dots K-1\}`$ and $` m \in \{0, 1, \dots \lfloor N/K \rfloor-1\}`$
 
 ## Digital Output Measurements 
 
