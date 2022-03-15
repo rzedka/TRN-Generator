@@ -61,7 +61,9 @@ Correlation can be implemented more efficiently via FFT algorithm as
 ```math
 \mathbf{R}_{x,y}(k) = ifft\Big\{ fft\big\{\mathbf{\tilde{x}} \big\} \odot fft \big\{ \mathbf{\tilde{y}} \big\}  \Big\} \quad \forall \quad k \in \langle 1-K, K-1\rangle,
 ```
-
+| $`\mathbf{R}_{x_0, x_0}(k)`$  |   $`\mathbf{R}_{x_0, x_1}(k)`$   |
+|:-------------------------:|:-------------------------:|
+| <img src="/images/R_ii_1.jpg" width="400"  title="autocorrelation"> | <img src="/images/R_ij_1.jpg" width="400"  title="covariance">  |
 
 ## Digital Output Measurements 
 
