@@ -44,7 +44,7 @@ PDF          |  PSD
 
 | PDF          |  PSD   |
 |:-------------------------:|:-------------------------:|
-| <img src="/images/PDF_2.jpg" width="300"  title="PDF"> | <img src="/images/PSD_2.jpg" width="300"  title="PSD">  |
+| <img src="/images/PDF_2.jpg" width="400"  title="PDF"> | <img src="/images/PSD_2.jpg" width="400"  title="PSD">  |
 
 Theoretical PDF formula is given by
 ```math
