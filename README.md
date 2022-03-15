@@ -44,7 +44,7 @@ PDF          |  PSD
 
 | PDF          |  PSD   |
 |:-------------------------:|:-------------------------:|
-| <img src=".\MATLAB\images\PDF.jpg" width="300"  title="PDF"> | <img src=".\MATLAB\images\PSD.jpg" width="300"  title="PSD">  |
+| <img src=".\images\PDF.jpg" width="300"  title="PDF"> | <img src=".\images\PSD.jpg" width="300"  title="PSD">  |
 
 Theoretical PDF formula is given by
 ```math
