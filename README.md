@@ -58,7 +58,7 @@ Correlation of two sequences is defined as
 ```
 which is implemented more efficiently via FFT algorithm as
 ```math
-\mathbf{R}_{x,y}(k) = \ifft\big\{ \mathbf{\tilde{X}} \odot \mathbf{\tilde{Y}}\big\}, 
+\mathbf{R}_{x,y}(k) = ifft\big\{ \mathbf{\tilde{X}} \odot \mathbf{\tilde{Y}}\big\}, 
 ```
 
 
@@ -77,43 +77,6 @@ Link test [Google][2], [Yahoo!][3].
 
 
 <!---
-![image](https://drive.google.com/uc?export=view&id=13Kc26w20WehUby2Woa2oCrK1Yk4WDjpU)
-
-
-Top view
-<img src="https://drive.google.com/uc?export=view&id=13Vyqv_aGqLThN_RuAk9eDzAqz0dn7TaK" width=400 align=center title="TOP">
---->
-
-<!---
-Bottom view
-<img src="https://drive.google.com/uc?export=view&id=13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c" width=300 align=left>
-
-<img src="https://drive.google.com/uc?export=view&id=13Vyqv_aGqLThN_RuAk9eDzAqz0dn7TaK" width=200 title="TOP">
-<img src="https://drive.google.com/uc?export=view&id=13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c" width=200 title="BOTTOM">
-
-Spectrum magnitude
-<img src="https://drive.google.com/uc?export=view&id=15Biexxwm-6txojOZyN4R7M9b6BPBS8EX" width=300 align=right  title="image Title">
---->
-
-
-<!---
-
-IMAGES:
-
-Top
-https://drive.google.com/file/d/13Vyqv_aGqLThN_RuAk9eDzAqz0dn7TaK/view?usp=sharing
-
-Bottom
-https://drive.google.com/file/d/13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c/view?usp=sharing
-
-Spectrum magnitude
-https://drive.google.com/file/d/15Biexxwm-6txojOZyN4R7M9b6BPBS8EX/view?usp=sharing
-
-probability density function - analog discovery 2 measurement, MATLAB postprocessing
-https://drive.google.com/file/d/1FSJg3w4s5QrxNMIRrV_UNIXjQxbqoiCA/view?usp=sharing
-
-Power Spectral Density - analog discovery 2 measurement, MATLAB postprocessing
-https://drive.google.com/file/d/1Ed-3j3mNsdae_eKPQ9sJc3PuFAJO0Veo/view?usp=sharing
 
 OTHER LINKS:
 
