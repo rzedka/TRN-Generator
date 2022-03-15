@@ -79,7 +79,7 @@ max \big\{ \mathbf{R}_{x_{K-1}, x_0}(k)\big\} & max \big\{ \mathbf{R}_{x_{K-1}, 
 ```
 
 <p align="center">
-  <img src="/images/CovMat_1.JPG" width="600"  title="covariance matrix" align ="center">
+  <img src="/images/CovMat_1.JPG" width="800"  title="covariance matrix" align ="center">
 </p>
 ## Digital Output Measurements 
 
