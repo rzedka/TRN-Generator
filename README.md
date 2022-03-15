@@ -25,17 +25,17 @@ and line math $`a^2 + b^2 = c^2`$.
 --->
 
 
-<!---
-Top view           |  Bottom view
-:-------------------------:|:-------------------------:
-<img src="https://drive.google.com/uc?export=view&id=13Vyqv_aGqLThN_RuAk9eDzAqz0dn7TaK" width=400 title="TOP">  |  <img src="https://drive.google.com/uc?export=view&id=13ThY_g2d9BxIqWg94jJebIAmiCJmlm3c" width=400 title="BOTTOM">
 
---->
+| Top view           |  Bottom view |
+|:-------------------------:|:-------------------------:|
+| <img src="/images/TRN_top_1.jpg" width="400"  title="top"> | <img src="/images/TRN_bottom_1" width="400"  title="bottom">  |
+
+
 
 
 ## Analog Output Measurements 
 
-In order to properly analyze the TRN generator I performed measurements with [Digilent Analog Discovery 2](https://digilent.com/reference/test-and-measurement/analog-discovery-2/start). Resulting histogram / probability density function (PDF) and power spectral density (PSD) are calculated in MATLAB and smoothened with video filter.
+In order to properly analyze the TRN generator I performed measurements with [Digilent Analog Discovery 2](https://digilent.com/reference/test-and-measurement/analog-discovery-2/start). Resulting histogram / probability density function (PDF) and power spectral density (PSD) are calculated in MATLAB.
 <!---
 PDF          |  PSD
 :-------------------------:|:-------------------------:
