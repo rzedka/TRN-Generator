@@ -77,6 +77,8 @@ max \big\{ \mathbf{R}_{x_1, x_0}(k)\big\} & max \big\{ \mathbf{R}_{x_1, x_1}(k)\
 max \big\{ \mathbf{R}_{x_{K-1}, x_0}(k)\big\} & max \big\{ \mathbf{R}_{x_{K-1}, x_1}(k)\big\} & \dots & max \big\{ \mathbf{R}_{x_{K-1}, x_{K-1}}(k)\big\}
 \end{pmatrix}
 ```
+<img src="/images/CovMat_1.jpg" width="600"  title="top">
+
 ## Digital Output Measurements 
 
 Analog output of the TRN generator is also sampled by Arduino Nano (at much lower sampling rate than with Analog Discovery 2).  
