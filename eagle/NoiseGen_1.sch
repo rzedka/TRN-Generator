@@ -84,24 +84,6 @@
 <pad name="P$1" x="0" y="0" drill="0.75" diameter="1.6764" shape="octagon"/>
 <text x="-2.54" y="1.27" size="1.27" layer="48">&gt;NAME</text>
 </package>
-<package name="TRIMMER1">
-<pad name="P$1" x="-1.27" y="-1.27" drill="0.85" diameter="1.9304" shape="octagon"/>
-<pad name="P$2" x="3.81" y="-1.27" drill="0.85" diameter="1.9304" shape="octagon"/>
-<pad name="P$3" x="1.27" y="3.81" drill="0.85" diameter="1.9304" shape="octagon"/>
-<wire x1="-2.54" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="21"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="1.905" width="0.254" layer="21"/>
-<wire x1="-2.54" y1="1.905" x2="-0.635" y2="5.08" width="0.254" layer="21" curve="-61.927498"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="1.905" width="0.254" layer="21"/>
-<wire x1="5.08" y1="1.905" x2="3.175" y2="5.08" width="0.254" layer="21" curve="61.927498"/>
-<wire x1="-0.635" y1="5.08" x2="3.175" y2="5.08" width="0.254" layer="21"/>
-<circle x="1.27" y="1.27" radius="3.237875" width="0.254" layer="21"/>
-<wire x1="3.175" y1="1.905" x2="-1.27" y2="1.905" width="0.254" layer="21"/>
-<wire x1="-1.27" y1="1.905" x2="-1.27" y2="0.635" width="0.254" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="3.81" y2="0.635" width="0.254" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="1.905" width="0.254" layer="21"/>
-<wire x1="3.81" y1="1.905" x2="3.175" y2="1.905" width="0.254" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="OPAMP">
@@ -129,25 +111,6 @@
 <wire x1="0" y1="0" x2="-0.762" y2="0.762" width="0.254" layer="94"/>
 <text x="-3.302" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
-</symbol>
-<symbol name="R-TRIM">
-<wire x1="0.762" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.651" y1="0" x2="-1.8796" y2="1.7526" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="1.27" x2="-1.651" y2="2.413" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-0.508" x2="-3.048" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.032" y2="-1.524" width="0.1524" layer="94"/>
-<text x="-5.969" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="A" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="E" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -183,23 +146,6 @@
 <device name="" package="TESTPAD">
 <connects>
 <connect gate="G$1" pin="TP" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TRIMMER1" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="R-TRIM" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TRIMMER1">
-<connects>
-<connect gate="G$1" pin="A" pad="P$2"/>
-<connect gate="G$1" pin="E" pad="P$1"/>
-<connect gate="G$1" pin="S" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -8421,7 +8367,6 @@ high speed (Philips)</description>
 <part name="V4" library="RZEDKA_2017" deviceset="TESTPAD" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$9" library="RZEDKA_2017" deviceset="TRIMMER1" device="" value="4k7"/>
 <part name="Q1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="BC337" device="" package3d_urn="urn:adsk.eagle:package:28523/2"/>
 <part name="Q2" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BC327" device="" package3d_urn="urn:adsk.eagle:package:29211/2"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/2"/>
@@ -8436,6 +8381,7 @@ high speed (Philips)</description>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="680n"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4k7"/>
 </parts>
 <sheets>
 <sheet>
@@ -8453,6 +8399,7 @@ high speed (Philips)</description>
 <text x="127" y="93.98" size="1.778" layer="91">200 mVpp</text>
 <text x="251.46" y="93.98" size="1.778" layer="91">0 - 4 Vpp</text>
 <text x="251.46" y="88.9" size="1.778" layer="91">0 - 666 mVrms</text>
+<text x="231.14" y="76.2" size="1.778" layer="91">15.4 kHz</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="48.26" y="68.58" smashed="yes">
@@ -8566,10 +8513,6 @@ high speed (Philips)</description>
 <instance part="GND2" gate="1" x="38.1" y="-7.62" smashed="yes">
 <attribute name="VALUE" x="35.56" y="-10.16" size="1.778" layer="96"/>
 </instance>
-<instance part="U$9" gate="G$1" x="228.6" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="229.87" y="86.995" size="1.778" layer="95"/>
-<attribute name="VALUE" x="230.886" y="81.026" size="1.778" layer="96"/>
-</instance>
 <instance part="Q1" gate="G$1" x="-33.02" y="53.34" smashed="yes">
 <attribute name="NAME" x="-35.56" y="58.42" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-25.4" y="53.34" size="1.778" layer="96"/>
@@ -8621,6 +8564,10 @@ high speed (Philips)</description>
 </instance>
 <instance part="GND6" gate="1" x="-55.88" y="-7.62" smashed="yes">
 <attribute name="VALUE" x="-58.42" y="-10.16" size="1.778" layer="96"/>
+</instance>
+<instance part="R13" gate="G$1" x="228.6" y="83.82" smashed="yes" rot="R180">
+<attribute name="NAME" x="232.41" y="82.3214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="87.122" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -8813,7 +8760,7 @@ high speed (Philips)</description>
 <pinref part="U2" gate="G$2" pin="-IN"/>
 <wire x1="215.9" y1="73.66" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
 <junction x="210.82" y="73.66"/>
-<pinref part="U$9" gate="G$1" pin="A"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="83.82" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
 <junction x="210.82" y="83.82"/>
 </segment>
@@ -8826,19 +8773,14 @@ high speed (Philips)</description>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="83.82" x2="243.84" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="91.44" x2="243.84" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U$9" gate="G$1" pin="E"/>
-<wire x1="233.68" y1="83.82" x2="236.22" y2="83.82" width="0.1524" layer="91"/>
 <junction x="243.84" y="83.82"/>
-<pinref part="U$9" gate="G$1" pin="S"/>
-<wire x1="236.22" y1="83.82" x2="243.84" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="78.74" x2="236.22" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="78.74" x2="236.22" y2="83.82" width="0.1524" layer="91"/>
-<junction x="236.22" y="83.82"/>
+<wire x1="233.68" y1="83.82" x2="243.84" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="V4" gate="G$1" pin="TP"/>
 <wire x1="248.92" y1="83.82" x2="243.84" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="68.58" x2="261.62" y2="68.58" width="0.1524" layer="91"/>
 <junction x="243.84" y="68.58"/>
 <label x="258.318" y="69.85" size="1.778" layer="95"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
