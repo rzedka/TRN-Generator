@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1647711115 source:c:\users\radim\documents\research\trn-generator\code\trn_gen_v1\fuse.c
+	<avr/io.h>
+
+1647725228 source:c:\users\radim\documents\research\trn-generator\code\trn_gen_v1\adc.c
+	"adc.h"
+
+1647720779 c:\users\radim\documents\research\trn-generator\code\trn_gen_v1\adc.h
+	<avr/io.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<avr/interrupt.h>
+
+1647722929 source:c:\users\radim\documents\research\trn-generator\code\trn_gen_v1\gpio.c
+	"gpio.h"
+
+1647720157 c:\users\radim\documents\research\trn-generator\code\trn_gen_v1\gpio.h
+	<avr/io.h>
+	<stdio.h>
+	<stdlib.h>
+
+1594050649 source:c:\users\radim\documents\research\trn-generator\code\trn_gen_v1\spi.c
+	"spi.h"
+
+1594051379 c:\users\radim\documents\research\trn-generator\code\trn_gen_v1\spi.h
+	<avr/io.h>
+	<stdio.h>
+	<stdlib.h>
+
+1647724293 source:c:\users\radim\documents\research\trn-generator\code\trn_gen_v1\tim.c
+	"tim.h"
+
+1647723128 c:\users\radim\documents\research\trn-generator\code\trn_gen_v1\tim.h
+	<avr/io.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<avr/interrupt.h>
+
+1647724684 source:c:\users\radim\documents\research\trn-generator\code\trn_gen_v1\uart.c
+	"uart.h"
+
+1647724819 c:\users\radim\documents\research\trn-generator\code\trn_gen_v1\uart.h
+	<avr/io.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<avr/interrupt.h>
+
+1647724538 source:c:\users\radim\documents\research\trn-generator\code\trn_gen_v1\main.c
+	<avr/io.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<avr/interrupt.h>
+	"trn_sys_definitions.h"
+	"gpio.h"
+	"tim.h"
+	"adc.h"
+	"uart.h"
+
+1647721923 c:\users\radim\documents\research\trn-generator\code\trn_gen_v1\trn_sys_definitions.h
+
